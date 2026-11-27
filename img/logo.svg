@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 160 160">
+
+    <polygon
+        points="80,8 144,44 144,116 80,152 16,116 16,44"
+        fill="#1c1c1c"
+        stroke="#dc2626"
+        stroke-width="5"
+    />
+
+    <text
+        x="77"
+        y="98"
+        font-family="Arial, sans-serif"
+        font-size="58"
+        font-weight="900"
+        font-style="italic"
+        text-anchor="middle"
+        fill="#ef4444">EG</text>
+
+</svg>
