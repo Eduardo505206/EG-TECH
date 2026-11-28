@@ -332,3 +332,66 @@ header {
     color: var(--destaque);
     font-weight: bold;
 }
+
+/* Cartão de outros serviços */
+
+.outros-servicos {
+    grid-column: 1 / -1;
+    border: 1px solid var(--primaria);
+    text-align: center;
+    padding: 30px;
+}
+
+.outros-servicos h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.outros-servicos p {
+    margin-bottom: 10px;
+}
+
+.outros-servicos .preco {
+    font-size: 24px;
+}
+
+/* Campo de descrição do problema */
+
+.descricao-problema {
+    margin: 25px 0;
+    text-align: left;
+}
+
+.descricao-problema label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.descricao-problema textarea {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: var(--fundo);
+    color: var(--texto);
+    border: 1px solid #444;
+    border-radius: 10px;
+    padding: 15px;
+    font-family: inherit;
+    font-size: 16px;
+    resize: vertical;
+    outline: none;
+    transition: 0.3s;
+}
+
+.descricao-problema textarea:focus {
+    border-color: var(--primaria);
+}
+
+.subtitulo-servicos {
+    text-align: center;
+    color: #b3b3b3;
+    max-width: 700px;
+    margin: 0 auto 35px;
+    line-height: 1.6;
+    font-size: 16px;
+}

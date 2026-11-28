@@ -38,7 +38,6 @@
     <meta property="og:image:type" content="image/jpeg">
 
     <link rel="canonical" href="https://egtechpc.online/">
-</head>
 
 </head>
 
@@ -58,18 +57,25 @@
     <section class="hero" id="inicio">
         <div class="hero-texto">
             <span>Tecnologia e Performance</span>
+            <h1>Soluções em informática para você</h1>
 
-            <h1>Seu PC no próximo nível.</h1>
-
-            <p>Montagem, manutenção e reparo de computadores
-                com qualidade, confiança e preços justos.</p>
-
+            <p>
+                Manutenção, montagem, upgrades, suporte técnico
+                e soluções personalizadas para seu computador.
+                Conte com a EG Tech para encontrar a melhor
+                solução para suas necessidades.
+            </p>
             <button id="btn-orcamento">Solicitar orçamento</button>
         </div>
         <img src="img/PC GAMER.png" alt="Computador gamer com iluminação RGB vermelha" class="hero-imagem">
     </section>
 
     <h2 id="servicos">Nossos serviços</h2>
+    <p class="subtitulo-servicos">
+        Conheça alguns dos nossos principais serviços.
+        Não encontrou o que precisa? Entre em contato
+        e solicite um atendimento personalizado.
+    </p>
 
     <div class="servicos">
         <div class="card">
@@ -103,6 +109,12 @@
             <p>Ajustes no sistema, remoção de arquivos desnecessários e configurações para melhorar o desempenho do
                 computador.</p>
             <p class="preco">A partir de R$ 50,00</p>
+            <div class="card outros-servicos">
+                <h3>Outros serviços</h3>
+                <p>Não encontrou o serviço que precisa? Descreva seu problema e solicite uma avaliação personalizada.
+                </p>
+                <p class="preco">Sob consulta</p>
+            </div>
         </div>
     </div>
 
@@ -142,6 +154,17 @@
             Otimização do Windows - A partir de R$ 50,00
         </label>
 
+        <label>
+            <input type="checkbox" value="0" id="outros-servicos">
+            Outros serviços - Sob consulta
+        </label>
+        <div class="descricao-problema">
+            <label for="descricao">
+                Descreva o problema ou serviço desejado
+            </label>
+
+            <textarea id="descricao" rows="5" placeholder="Ex.: Meu computador está desligando sozinho..."></textarea>
+        </div>
         <h3>Valor estimado: <span id="total">R$ 0,00</span></h3>
 
         <p>Valores sujeitos à avaliação técnica. Peças não inclusas.</p>
